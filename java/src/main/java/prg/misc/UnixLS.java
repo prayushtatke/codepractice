@@ -22,5 +22,4 @@ return 1;
         System.err.println(String.format("ls: cannot access '%s': No such file or directory",file.getName()));
         return 1;
     }
-    ss
 }
