@@ -4,6 +4,12 @@ import prg.Out.Util;
 
 import java.util.Arrays;
 
+/**
+ * Program to arrange the given array that all even numbers comes
+ * before the odd numbers.
+ *
+ * (No Sorting required)
+ */
 public class ArrangeEvenOdd {
     public static void main(String[] args) {
         int [] input = {11, 3, 13, 15, 4, 5, 2, 6};
@@ -15,14 +21,14 @@ public class ArrangeEvenOdd {
     private static void arrangeEvenThenOdd(int [] input) {
 
         int leftHead = 0;
-        int rightHead = input.length -1 ;
+        int rightHead = input.length - 1 ;
 
         while (leftHead < rightHead) {
 
             while ( leftHead < input.length && input[leftHead] % 2 == 0 )
                 leftHead++;
 
-            while (rightHead > 0 && input[rightHead] %2 == 1)
+            while (rightHead > 0 && input[rightHead] % 2 == 1)
                 rightHead--;
 
 //            for (;leftHead < input.length && input[leftHead] % 2 == 0 ; leftHead++ ){}

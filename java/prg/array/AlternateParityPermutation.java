@@ -10,10 +10,12 @@ import java.util.Arrays;
 public class AlternateParityPermutation {
     public static void main(String[] args) {
         int [] arr = { 7, 2, 5, 8, 1, 6, 3, 4 };
-        System.out.println(String.format("isParityPermutation: %s -> %s", Arrays.toString(arr), isParityPermutation(arr)));
+        System.out.println(String.format("isParityPermutation: %s -> %s",
+            Arrays.toString(arr), isParityPermutation(arr)));
 
         int [] arr2 = { 7, 2, 5, 8, 1, 9, 3, 4 };
-        System.out.println(String.format("isParityPermutation: %s -> %s", Arrays.toString(arr), isParityPermutation(arr2)));
+        System.out.println(String.format("isParityPermutation: %s -> %s",
+            Arrays.toString(arr), isParityPermutation(arr2)));
 
     }
 
