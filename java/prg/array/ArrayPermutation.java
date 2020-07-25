@@ -7,13 +7,14 @@ public class ArrayPermutation {
         permute(new int[]{ 1,2,3,4 });
     }
 
-    public static void permute(int[] arr){
+    public static void permute(int[] arr) {
         permuteHelper(arr, 0);
     }
 
-    private static void permuteHelper(int[] arr, int index) {
+    public static void permuteHelper(int[] arr, int index) {
         //If we are at the last element - nothing left to permute
         if( index >= arr.length - 1 ) {
+
             //Print the array
 //            System.out.println("index: "+index);
             System.out.println(Arrays.toString(arr));
