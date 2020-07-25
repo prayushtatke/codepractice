@@ -1,5 +1,8 @@
 package prg.array;
-
+/**
+  A permutation of [n] = {1, 2, . . . , n} will be called a parity alternating permutation (PAP)
+  if its entries assume even and odd integers alternately, such as 72581634.
+**/
 public class AlternateParityPermutation {
     public static void main(String[] args) {
 

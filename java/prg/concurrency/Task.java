@@ -1,4 +1,4 @@
-package prg;
+package prg.concurrency;
 
 public class Task implements Runnable {
     private void do_stuff() {

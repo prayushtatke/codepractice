@@ -1,4 +1,4 @@
-package prg;
+package prg.misc;
 
 import java.util.List;
 import java.util.ArrayList;

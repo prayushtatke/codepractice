@@ -1,6 +1,6 @@
 package prg.concurrency;
 
-import prg.Util;
+import prg.Out.Util;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package prg;
+package prg.misc;
 
 import java.io.File;
 

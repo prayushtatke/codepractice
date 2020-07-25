@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
+import prg.Util;
 
 public class MultiThreadedWordCountWithCallable {
     private static final String FILE_PATH = "../test.txt";

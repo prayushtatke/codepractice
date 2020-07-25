@@ -1,7 +1,7 @@
 package prg.array;
 
 import prg.Out;
-import prg.Util;
+import prg.Out.Util;
 
 import java.util.Arrays;
 

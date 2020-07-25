@@ -4,10 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LRUCacheTest {
-    private LRUCache lru;
 
     public LRUCacheTest() {
-        this.lru = lru;
     }
 
     @Test

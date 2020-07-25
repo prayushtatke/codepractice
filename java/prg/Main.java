@@ -1,4 +1,4 @@
-/* Save this in a file called Main.java to compile and test it */
+package prg;/* Save this in a file called prg.Main.java to compile and test it */
 
 /* Do not add a package declaration */
 

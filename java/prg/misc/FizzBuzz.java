@@ -1,4 +1,4 @@
-package prg;
+package prg.misc;
 
 /*
  * uncomment this if you want to read input.

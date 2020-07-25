@@ -1,6 +1,7 @@
-package prg;
+package prg.concurrency;
 
 import java.util.concurrent.CompletableFuture;
+import prg.Util;
 
 public class CompletableFutureTest {
     public static void main(String[] args) {

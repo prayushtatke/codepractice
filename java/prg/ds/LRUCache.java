@@ -2,6 +2,7 @@ package prg.ds;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class LRUCache<K,V> {
 
@@ -13,9 +14,9 @@ public class LRUCache<K,V> {
         this.capacity = capacity;
         lru = new LinkedHashMap<>(capacity){
             @Override
-            protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
+            protected boolean removeEldestEntry(Entry eldest) {
                 headTobeRemoved = eldest;
-                return size() > capacity ? true : false;
+                return size() > capacity;
             }
         };
     }

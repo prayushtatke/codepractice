@@ -1,3 +1,5 @@
+package prg;
+
 import java.util.*;
 
 public class Test {
@@ -90,7 +92,7 @@ public class Test {
     }
     private static void change(int x){
         x = x /2 ;
-        System.out.println("Test.change "+x);
+        System.out.println("prg.Test.change "+x);
     }
 
     private static void linkedHashMapAsLRU() {
@@ -98,7 +100,7 @@ public class Test {
         LinkedHashMap<Integer,String> lru = new LinkedHashMap<>(CAPACITY) {
             @Override
             protected boolean removeEldestEntry(Map.Entry eldest) {
-                System.out.println("Test.removeEldestEntry, size:"+size()+", capacity:"+CAPACITY+", Head: "+eldest.getKey());
+                System.out.println("prg.Test.removeEldestEntry, size:"+size()+", capacity:"+CAPACITY+", Head: "+eldest.getKey());
                 return size() > CAPACITY ? true : false;
             }
         };

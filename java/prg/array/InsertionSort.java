@@ -1,6 +1,6 @@
 package prg.array;
 
-import prg.Util;
+import prg.Out.Util;
 
 import java.util.Arrays;
 
