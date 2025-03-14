@@ -30,11 +30,17 @@ function floorMovement(input) {
 function findFinalFloor(input) {
     // read each character of the input
     // initialize a variable floor to 0
+    /*
     let floor = 0;
     for (let i = 0; i < input.length; i++) {
         floor += floorMovement(input[i]);
     }
     return floor;
+    */
+    return input
+        .split("")
+        .map(floorMovement)
+        .reduce((acc, curr) => acc + curr);
 }
 
 /*
