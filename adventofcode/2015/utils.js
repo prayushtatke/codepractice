@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-function read_input_file(file_path) {
+function readInput(file_path) {
     try {
         const data = fs.readFileSync(file_path, "utf8");
         return data;
@@ -10,5 +10,5 @@ function read_input_file(file_path) {
 }
 
 module.exports = {
-    read_input_file,
+    readInput,
 };

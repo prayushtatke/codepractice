@@ -63,11 +63,9 @@ function findFirstCharPositionForBasement(input) {
         }
     }
 }
-console.log(
-    "part-1:",
-    findFinalFloor(utils.read_input_file("part1_input.txt")),
-);
+console.log("part-1:", findFinalFloor(utils.readInput("part1_input.txt")));
 console.log(
     "part-2:",
-    findFirstCharPositionForBasement(utils.read_input_file("part1_input.txt")),
+    findFirstCharPositionForBasement(utils.readInput("part1_input.txt")),
 );
+console.log("test");
